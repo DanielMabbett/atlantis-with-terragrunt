@@ -1,5 +1,7 @@
 # Atlantis with Terragrunt
 
+[![Docker](https://github.com/DanielMabbett/atlantis-with-terragrunt/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/DanielMabbett/atlantis-with-terragrunt/actions/workflows/docker-publish.yml)
+
 This is a custom docker image based off of the Atlantis container:
 <https://hub.docker.com/r/runatlantis/atlantis>
 
