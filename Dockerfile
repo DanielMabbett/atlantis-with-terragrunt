@@ -1,5 +1,5 @@
 # The runatlantis/atlantis-base is created by docker-base/Dockerfile.
-FROM unatlantis/atlantis:v0.16.1
+FROM runatlantis/atlantis:v0.16.1
 
 # install terragrunt
 ENV TERRAGRUNT_VERSION=v0.28.19
