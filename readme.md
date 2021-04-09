@@ -26,6 +26,17 @@ image:
 
 TERRAGRUNT_VERSION=v0.28.19
 
+## How to change Atlantis Helm Chart
+
+In your `values.yaml` file you will want to add:
+
+```yaml
+image:
+  repository: danielmabbett/atlantis-terragrunt
+  tag: latest
+  pullPolicy: IfNotPresent
+```
+
 ## Contributors
 
 All contributors welcome!
