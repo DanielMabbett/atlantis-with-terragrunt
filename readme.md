@@ -5,7 +5,9 @@
 This is a custom docker image based off of the Atlantis container:
 <https://hub.docker.com/r/runatlantis/atlantis>
 
-## Supported Atlantis tags/versions
+## Versions
+
+### Atlantis Container Version
 
 Currently only support the version of the Atlantis container that is used in their helm chart:
 <https://github.com/runatlantis/helm-charts/blob/main/charts/atlantis/values.yaml>
@@ -20,6 +22,9 @@ image:
   tag: v0.16.1
   pullPolicy: IfNotPresent
 ```
+### Terragrunt Version
+
+TERRAGRUNT_VERSION=v0.28.19
 
 ## Contributors
 
