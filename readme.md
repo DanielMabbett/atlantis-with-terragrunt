@@ -1,4 +1,12 @@
-# Atlantis with Terragrunt
+# Custom Atlantis Containers
+
+Atlantis is a great tool that can be used with Terraform.
+
+This repo contains "downstream" build images with additional tools installed for ease of use.
+
+## Builds
+
+### Atlantis + Terragrunt + AzCli
 
 [![Docker](https://github.com/DanielMabbett/atlantis-with-terragrunt/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/DanielMabbett/atlantis-with-terragrunt/actions/workflows/docker-publish.yml)
 
