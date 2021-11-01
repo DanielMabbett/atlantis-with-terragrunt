@@ -19,12 +19,12 @@ Currently only support the version of the Atlantis container that is used in the
 
 image:
   repository: runatlantis/atlantis
-  tag: v0.16.1
+  tag: v0.17.4
   pullPolicy: IfNotPresent
 ```
 ### Terragrunt Version
 
-TERRAGRUNT_VERSION=v0.28.19
+TERRAGRUNT_VERSION=v0.31.1
 
 ## How to change Atlantis Helm Chart
 
